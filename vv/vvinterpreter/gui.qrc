@@ -1,6 +1,0 @@
-<RCC>
-  <qresource prefix="/icons">
-    <file>model_overlay.png</file>
-    <file>logo.png</file>
-  </qresource>
-</RCC>

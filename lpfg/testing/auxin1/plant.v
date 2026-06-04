@@ -1,1 +1,0 @@
-z buffer: off

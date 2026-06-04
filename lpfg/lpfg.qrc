@@ -1,5 +1,0 @@
-<!DOCTYPE RCC><RCC version="1.0">
- <qresource>
-     <file alias="default-icon.png">../browser/Images/default-icon.png</file>
-</qresource>
- </RCC>

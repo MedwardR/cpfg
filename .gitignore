@@ -8,6 +8,9 @@
 .qmake.stash
 qrc_*.cpp
 a.out
+Debug/
+DebugST/
+Release/
 
 # ignore generated Makefiles
 Makefile
@@ -59,18 +62,11 @@ Thumbs.db
 *.pro.user*
 CMakeLists.txt.user*
 
-# other files
-.#file_list
-
-#Distribution files
-Distribution/vlab-5*
-
-#comments
+# comments
 */comments
 libs/*/comments
 
-#test files
-
+# test files
 /.vscode
 config_lpfg.pri
 Rayshade/libshade/yacc.h
@@ -111,3 +107,7 @@ cpfg/lex.lsys_input.c
 cpfg/lsys_input_lex.c
 cpfg/lsys_input_yacc.c
 l2c/lex_l.cpp
+
+# Visual Studio
+.vs/
+*.user

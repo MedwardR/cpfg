@@ -1,7 +1,0 @@
-A "science fiction mutant"
-
-This is a mutation of sfplant (located in the same 
-directory).  The mutant L-system has one extra 
-semicolon at the end of the predecessor of the third 
-production (consequently, that production, which 
-limits the development of "flowers", is never applied).

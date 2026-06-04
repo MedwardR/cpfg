@@ -1,4 +1,0 @@
-cpfg -M material.mat -e tree.e tree.l tree.v tree.a
-active tab: description
-auto run: on
-continuous mode: on
