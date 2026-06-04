@@ -1,3 +1,3 @@
 # cpfg
 
-[manual.pdf](cpfg/CPFGManual.pdf)
+[manual.pdf](CPFGManual.pdf)
