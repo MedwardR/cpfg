@@ -1,3 +1,10 @@
+From https://github.com/AlgorithmicBotany/vlab
+
 # cpfg
 
-[manual.pdf](CPFGManual.pdf)
+[Manual](CPFGManual.pdf)
+
+# Build requirements
+
+- Microsoft Visual Studio
+- `flex` / `bison` (https://github.com/lexxmark/winflexbison/)

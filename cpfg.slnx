@@ -9,7 +9,7 @@
     <BuildType Name="ReleaseST" />
     <Platform Name="Default" />
   </Configurations>
-  <Project Path="../libs/comm/comm_lib.vcxproj" Id="8ad42689-9ff0-40bb-9088-1fa0e8383da3">
+  <Project Path="libs/comm/comm_lib.vcxproj" Id="8ad42689-9ff0-40bb-9088-1fa0e8383da3">
     <BuildType Solution="cpfgv|*" Project="Release" />
     <BuildType Solution="DebugMT|*" Project="Debug" />
     <BuildType Solution="Eval|*" Project="Release" />
@@ -17,13 +17,13 @@
     <BuildType Solution="ReleaseST|*" Project="Release" />
     <Platform Project="Win32" />
   </Project>
-  <Project Path="../libs/image/image.vcxproj" Id="fe34fd43-7dd2-4b13-9532-0cd918ad9b0e">
+  <Project Path="libs/image/image.vcxproj" Id="fe34fd43-7dd2-4b13-9532-0cd918ad9b0e">
     <BuildType Solution="cpfgv|*" Project="DebugMT" />
     <BuildType Solution="Eval|*" Project="DebugMT" />
     <BuildType Solution="ReleaseST|*" Project="ReleaseMT" />
     <Platform Project="Win32" />
   </Project>
-  <Project Path="../libs/rand48/rand48.vcxproj" Id="08349937-831b-45cb-842c-00fbaeacbe7b">
+  <Project Path="libs/rand48/rand48.vcxproj" Id="08349937-831b-45cb-842c-00fbaeacbe7b">
     <BuildType Solution="cpfgv|*" Project="Release" />
     <BuildType Solution="DebugMT|*" Project="Debug" />
     <BuildType Solution="Eval|*" Project="Release" />
@@ -31,7 +31,7 @@
     <BuildType Solution="ReleaseST|*" Project="Release" />
     <Platform Project="Win32" />
   </Project>
-  <Project Path="../libs/scramble/scramble.vcxproj" Id="c73a7219-a344-4021-950b-c08e1c2d28b6">
+  <Project Path="libs/scramble/scramble.vcxproj" Id="c73a7219-a344-4021-950b-c08e1c2d28b6">
     <BuildType Solution="cpfgv|*" Project="ReleaseST" />
     <BuildType Solution="DebugMT|*" Project="DebugST" />
     <BuildType Solution="Debug|*" Project="DebugST" />
@@ -39,10 +39,10 @@
     <BuildType Solution="ReleaseMT|*" Project="ReleaseST" />
     <Platform Project="Win32" />
   </Project>
-  <Project Path="cpfg.vcxproj" Id="afc21e4c-800d-48eb-8e3f-4048db8c73e4">
-    <BuildDependency Project="../libs/comm/comm_lib.vcxproj" />
-    <BuildDependency Project="../libs/rand48/rand48.vcxproj" />
-    <BuildDependency Project="../libs/scramble/scramble.vcxproj" />
+  <Project Path="cpfg/cpfg.vcxproj" Id="afc21e4c-800d-48eb-8e3f-4048db8c73e4">
+    <BuildDependency Project="libs/comm/comm_lib.vcxproj" />
+    <BuildDependency Project="libs/rand48/rand48.vcxproj" />
+    <BuildDependency Project="libs/scramble/scramble.vcxproj" />
     <BuildType Solution="DebugMT|*" Project="Debug" />
     <BuildType Solution="ReleaseMT|*" Project="Release" />
     <BuildType Solution="ReleaseST|*" Project="Release" />
